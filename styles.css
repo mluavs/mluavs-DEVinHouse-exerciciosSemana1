@@ -1,0 +1,118 @@
+html, 
+body, 
+div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(211, 208, 195);
+    height: 100vh;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    background-image: url("https://www-media.egger-cdn.com/9183085625374/9336085348382/U961ST19520x300px.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 120px;
+    width: 100%;
+}
+
+hr{
+    border: solid black 0.5px;
+    width: 100%;
+}
+
+header{
+    display: block;
+    gap: 100px;
+    position: fixed;
+    background-color: rgb(206, 159, 159);
+    width: 100%;
+    /* padding-top: 10px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    transition: all 300ms;
+}
+
+p{
+    font-size: 14px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    border:  solid 2px black;
+    max-width: 45px;
+}
+
+button img{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    background-color: rgb(21, 21, 22);
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0
+}
+
+body{
+    width: 100%;
+}
+
+#ladoalado {
+    display: flex;
+    gap: 10px;
+}
+
+#ladoalado > img{
+    flex-wrap: nowrap;
+    height: 10%;
+    background-color: aqua;
+}
+
+nav img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+iframe {
+    max-width: 400px;
+    max-height: 350px;
+}
